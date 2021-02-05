@@ -1,0 +1,55 @@
+.frame{
+  background-color: black;
+  display: flex;
+  margin: auto;
+}
+
+.red-light{
+  display: flex;
+  color: red;
+  background-color: red;
+  align-content: flex-start;
+  
+}
+
+.green-light{
+  display: flex;
+  color: green;
+  background-color: green;
+  filter: drop-shadow(10px green);
+  align-content: flex-end;
+}
+
+.yellow-light{
+  display: flex;
+  color: yellow;
+  background-color: yellow;
+  align-content: center;
+}
+
+.light{
+  border-radius: 25%;
+  width: auto;
+  height: auto;
+}
+
+.box-big{
+  background-color: rgb(77, 77, 77);
+  width: 200px;
+  height: 500px;
+  margin: 5em;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.box-neck{
+  background-color: rgb(77, 77, 77);
+  width: 10%;
+  height: 50%;
+}
+
+.d-flex-center{
+  display: flex;
+  justify-content: stretch;
+}
+
